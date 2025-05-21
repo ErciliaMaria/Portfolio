@@ -1,8 +1,11 @@
 
 import './App.css'
+import './index.css'
 import AppNav from './components/AppNav'
 import AppAbout from './components/AppAbout'
-import { BrowserRouter } from 'react-router-dom';
+import AppProjects from './components/AppProjects'
+import AppSkills from './components/AppSkills'
+import { BrowserRouter} from 'react-router-dom';
 
 function App() {
 
@@ -10,6 +13,8 @@ function App() {
      <BrowserRouter>
       <AppNav />
       <AppAbout />
+      <AppProjects/>
+      <AppSkills />
      </BrowserRouter>
   )
 }
