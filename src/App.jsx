@@ -1,6 +1,5 @@
 
-import './App.css'
-import './index.css'
+import './AppOutput.css'
 import AppNav from './components/AppNav'
 import AppAbout from './components/AppAbout'
 import AppProjects from './components/AppProjects'

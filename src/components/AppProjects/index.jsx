@@ -1,7 +1,3 @@
-
-import SiteGalery from "../../assets/galery.png"
-import SiteMotors from "../../assets/motors.png"
-
 import AppPortfolio from "../AppCards/AppPortfolio"
 import AppMotors from "../AppCards/AppMotors"
 import AppGalery from "../AppCards/AppGalery"
@@ -13,17 +9,17 @@ import AppRegister from "../AppCards/AppRegister"
 function AppProjects() {
   return (
     <div>
-      <div className="bg-black flex flex-col justify-around sm:flex-row p-8 mb-8 ">
+      <div className="bg-black flex flex-col justify-around md:flex-row p-8 ">
         <AppList />
         <AppBuffet />
         <AppRegister />
       </div>
-      <div className="bg-black flex flex-col justify-around sm:flex-row p-8 mb-8 ">
+      <div className="bg-black flex flex-col justify-around md:flex-row lg:flex-row p-8 ">
         <AppCake />
         <AppCruise />
         <AppGalery />
       </div>
-      <div className="bg-black flex flex-col justify-around sm:flex-row p-8 mb-8 ">
+      <div className="bg-black flex flex-col justify-around md:flex-row lg:flex-row p-8 ">
         <AppMotors />
         <AppPortfolio />
       </div>
@@ -31,4 +27,3 @@ function AppProjects() {
   )
 }
 export default AppProjects
-import './style.sass'
