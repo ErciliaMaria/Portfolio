@@ -1,16 +1,16 @@
-module.exports = {
+/** @type {import('tailwindcss').Config} */
+export default {
   content: [
-    "./src/**/*.{js,jsx}",
-    "./index.html"
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens:{
+      sm: '375px',
+      md:'768px',
+      lg:'1024px',
+    },
     extend: {},
-    fontFamily: {
-      fontFamily: {
-        display: ['Oswald', 'sans-serif'],
-        body: ['"Open Sans"', 'sans-serif'],
-      }
-    }
   },
   plugins: [],
 }
