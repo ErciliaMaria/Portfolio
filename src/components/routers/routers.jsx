@@ -3,7 +3,7 @@ import App from '../../App'
 import AppNav from '../AppNav'
 import AppAbout from '../AppAbout'
 import AppProjects from '../AppProjects1'
-import AppSkills from '../AppSkills'
+import AppForm from '../AppForm'
 
 
 const router = createBrowserRouter([
@@ -23,8 +23,8 @@ const router = createBrowserRouter([
                 element:<AppProjects/>
             },
             {
-                path:'/skills',
-                element:<AppSkills/>
+                path:'/form',
+                element:<AppForm/>
             },
         ]
     }

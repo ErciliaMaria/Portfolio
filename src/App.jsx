@@ -1,7 +1,7 @@
 import AppNav from './components/AppNav'
 import AppAbout from './components/AppAbout'
 import AppProjects from './components/AppProjects'
-import AppSkills from './components/AppSkills'
+import AppForm from './components/AppForm'
 import { BrowserRouter} from 'react-router-dom';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <AppNav />
       <AppAbout />
       <AppProjects/>
-      <AppSkills />
+      <AppForm />
      </BrowserRouter>
   )
 }
