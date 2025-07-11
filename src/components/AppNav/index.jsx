@@ -42,7 +42,7 @@ function closeMenu()
                         <ul>
                             <li className='text-white text-xl px-10 cursor-pointer'>About me</li>
                             <li className='text-white text-xl px-10 cursor-pointer'>Projects</li>
-                            <li className='text-white text-xl px-10 cursor-pointer'>Skills</li>
+                            <li className='text-white text-xl px-10 cursor-pointer'>Registration Form</li>
                         </ul>
                     </div>
                 ):(
